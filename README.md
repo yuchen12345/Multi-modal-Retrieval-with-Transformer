@@ -6,8 +6,8 @@ This project studies cross-modal retrieval by comparing a baseline dual-encoder 
 ## Repository Structure
 ```text
 .
-├── baseline/ # baseline model training
-├── other_attempts/ # additional experiments and trials
+├── baseline_models/ # baseline model training
+├── advanced_models/ # additional experiments and trials
 ├── results/ # some evaluation results and figures
 ├── advanced_model_final.ipynb # final advanced model implementation and training
 └── demo_baseline_vs_advanced.ipynb # evaluation script(including sample input-output)
@@ -42,10 +42,10 @@ This project is mainly organized as Jupyter notebooks:
   - comparison between baseline and advanced models
   
 ### Additional folders
-- `baseline/`  
+- `baseline_models/`  
   Contains baseline model notebooks using both ViT and ResNet as visual encoders.
 
-- `other_attempts/`  
+- `advanced_models/`  
   Contains exploratory experiments, ablation studies, and intermediate model variants.
 
 - `results/`  
