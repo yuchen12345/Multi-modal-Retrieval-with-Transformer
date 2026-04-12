@@ -1,0 +1,13 @@
+torch
+torchvision
+transformers
+datasets
+huggingface_hub
+matplotlib
+pillow
+tqdm
+numpy
+pycocotools
+jupyter
+notebook
+ipykernel
