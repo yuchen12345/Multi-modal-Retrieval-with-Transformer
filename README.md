@@ -9,8 +9,8 @@ This project studies cross-modal retrieval by comparing a baseline dual-encoder 
 ├── baseline/ # baseline model training
 ├── other_attempts/ # additional experiments and trials
 ├── results/ # some evaluation results and figures
-├── advanced_model_final_change_dataset_hard.ipynb # final advanced model implementation and training
-└── Evaluate_baseline_advanced.ipynb # evaluation script(including sample input-output)
+├── advanced_model_final.ipynb # final advanced model implementation and training
+└── demo_baseline_vs_advanced.ipynb # evaluation script(including sample input-output)
 ```
 
 ## Dataset
@@ -32,10 +32,10 @@ This project is mainly organized as Jupyter notebooks:
 - `baseline/baseline_ViT.ipynb`
   Notebook for the baseline model (ViT+BERT), including model setup, training and evaluation.
   
-- `advanced_model_final_change_dataset_hard.ipynb`  
+- `advanced_model_final.ipynb`  
   Main notebook for the final advanced model (ViT+BERT+cross attention), including final model setup, training and evaluation.
 
-- `Evaluate_baseline_advanced.ipynb`  
+- `demo_baseline_vs_advanced.ipynb`  
   Main evaluation notebook for comparing the baseline and advanced models. This notebook includes:
   - Recall@K results for image-to-text and text-to-image retrieval
   - qualitative retrieval examples
